@@ -1,0 +1,71 @@
+body {
+  font-family: arial,sans-serif;
+}
+
+.searchbox {
+  outline: none;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 470px;
+  height: 30px;
+  cursor: text;}
+
+.advsearchbox {
+  outline: none;
+  width: 500px;
+  height: 25px;
+  cursor:text;
+}
+
+.advsearchbutton{
+  background-color: #357ae8;
+  background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+  color: white;
+  height: 30px;
+  border: 1px solid #2f5bb7;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.widediv{
+  width: 505px;
+  text-align: right;
+}
+
+h1 {
+  color : red;
+}
+
+#containerlinks{
+  text-align:right;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  text-align : center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input {
+  cursor: pointer;
+  height: 30px;
+}
+
+tr {
+  height:40px;
+}
+
+td {
+  min-width:210px;
+}
